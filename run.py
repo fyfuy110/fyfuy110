@@ -352,7 +352,7 @@ def action():
 
                     print '\x1b[1;92m  [Sucessfull-Jalal] ' + k + c + user + '  |  ' + pass2
 
-                    cps = open('save/CP.txt', 'a')
+                    cps = open('save/OK.txt', 'a')
 
                     cps.write(k + c + user + pass2 + '\n')
 
@@ -372,7 +372,7 @@ def action():
 
                         print '\x1b[1;92m  [Sucessfull-Jalal]  ' + k + c + user + '  |  ' + pass3
 
-                        okb = open('save/CP.txt', 'a')
+                        okb = open('save/OK.txt', 'a')
 
                         okb.write(k + c + user + pass3 + '\n')
 
@@ -384,7 +384,7 @@ def action():
 
                         print '\x1b[1;92m  [Sucessfull-Jalal] ' + k + c + user + '  |  ' + pass3
 
-                        cps = open('save/CP.txt', 'a')
+                        cps = open('save/OK.txt', 'a')
 
                         cps.write(k + c + user + pass3 + '\n')
 
@@ -408,7 +408,7 @@ def action():
 
     print 'Total OK : ' + str(len(oks))
 
-    print 'Total CP : ' + str(len(cpb))
+    print 'Total CP : ' + str(len(Oks))
 
     print(47*"-")
 
