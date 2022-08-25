@@ -26,6 +26,7 @@ def Run():
             os.system('xdg-open https://facebook.com/groups/351076900316263/')
             import AKING
         else:
-            exit('\033[1;31m[×] Sorry, Your Device Not Support This Tool')
-Run()
+            exit
+Run() 
+
  
